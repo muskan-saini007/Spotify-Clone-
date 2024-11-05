@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+      background-color: black;
+    }
+    .side {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1919;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 120px;
+  width: 220px;
+  /* overflow-y:hidden; */
+  justify-content: center;
+}
+.side a{
+    text-decoration: none;
+}
+
+.downside{
+  background-color: #1a1919;
+    color: white;
+    padding: 20px;
+    height: 110px;
+    width: 220px;
+    font-family: sans-serif;
+    overflow-y: hidden;
+    position: relative;
+    top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.downside:hover {
+    overflow-y: scroll;
+}
+.downside::-webkit-scrollbar {
+    display: none;
+}
+
+.downside a{
+    text-decoration: none;
+}
+.downside p{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.plbt{
+    background-color: white;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+.legal{
+  display:contents;
+  background-color: #1a1919;
+    height: auto;
+    padding: 10px;
+    height: 210px;
+    width: 240px;
+    color: rgb(170, 163, 163);
+    position: relative;
+    top: -30px;
+    font-size: 12px;
+}
+.language{
+  background-color: transparent;
+  color: white;
+  width: 10pc;
+  height: 30px;
+  border-color: white;
+  border-radius: 20px;
+}
+.language:hover{
+  transform: scale(1.1);
+}
+
+</style>
+<body style="overflow-y: hidden;">
+    <nav class="side">
+        <div>
+          <img src="/images/Spotify_Logo_CMYK_White.png" alt="" style="height: 30px" />
+        </div>
+        <div style="display: flex; position: relative;top: -20px; ">
+          <img src="images/house-home.svg" alt="Home" style="height: 30px; padding: -15px; margin: 5px; position: relative;bottom: -20px;" />
+          <a href="spotify.html" target="contentFrame" style="color: aliceblue; font-size: 22px; position: relative; top: 30px;">Home</a>
+        </div>
+        <div style="display: flex; position: relative;top: -20px; ">
+          <img src="/images/search2.svg" alt="Search" style="height: 30px; position: relative; top: 21px; padding: -15px; margin: 5px;" />
+          <a href="search.html" target="contentFrame" style="color: aliceblue; font-size: 22px; position: relative; top: 30px;">Search</a>
+        </div>
+        <br/>
+      </nav>
+      <br>
+
+      <img src="/images/library.png" alt="" style="height: 30px; padding: -15px; margin: 5px; position: relative; top: 15px;">
+      <a href="" style="color: aliceblue; font-size: 22px; position: relative; margin-bottom: 20px;text-decoration: none;">Your library</a>
+      <img src="/images/PineTools.com_files/icons8-plus-50.png" alt="" style="height: 30px; padding: -15px; margin: 5px; position: relative; top: 15px; right: -65px;">
+      <nav class="downside">       
+              <div style="background-color: rgb(54, 52, 52);border-radius: 20px;padding: 7px;">
+                <p>Create your first playlist</p>
+                <p style="font-size: 15px;">It's easy we'll help you</p>
+                <button class="plbt">Create playlist</button>
+            </div>
+            <br>
+            <div style="background-color: rgb(105, 98, 98);border-radius: 20px;padding: 7px;">
+                
+                <p>Let's find some podcasts to follow</p>
+                <p>We'll keep you updated on new episodes</p>
+                <button class="plbt">Browse Podcasts</button>
+            </div>
+        </div>
+      </nav>
+      <br>
+      <div class="legal"> 
+        <div style="display: flex; gap: 16px;">
+          <p>Legal</p>
+          <p style="font-size: 12px;">Safety & Privacy center</p>
+          <p>Privacy Policy</p>
+        </div>
+
+        <div style="display: flex; gap: 20px;">
+        <p>About Ads</p>
+        <p>Cookies</p>
+        <p>Accessibility</p>
+      </div>
+      
+        <p>Cookies</p>
+      </div>
+      <img src="/images/icons8-world-50.png" alt="" style="height: 20px; position: relative; right: -30px; bottom: -4px;" >
+      <button class="language">English</button>
+    
+</body>
+</html>

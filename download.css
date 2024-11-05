@@ -1,0 +1,214 @@
+body{
+    /* padding: 0px; */
+    margin: 0px;
+    overflow-x: hidden;
+    
+}
+.uppernav {
+    display: flex;
+    background-color: #333;
+    font-family: Verdana;
+    height: 50px;
+    width: 1390px;
+    padding: 20px;
+    margin-top: -20px;
+
+  }
+  
+  .uppernav a {
+    position: relative;
+    bottom: -10px;
+    left: 500px;
+    text-decoration: none;
+    color:lightgray;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+  }
+  
+  .uppernav a:hover{
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+  }
+  
+  .login{
+    position: relative;
+    right: -29px;
+  }
+  .login button{
+      height: 40px;
+      width: 110px;
+      border-radius: 24px;
+      font-size: 19x;
+      font-weight: 800;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* position: fixed; */
+    position: relative;
+    right: -50px;
+  }
+  
+  .login button:hover{
+      transform: scale(1.1);
+    }
+    .uppernav img {
+        height: 20px;
+        /* margin-bottom: 20px; */
+    }
+    
+  
+
+.main{
+    justify-content: center;
+    text-align: center;
+    width: 89pc;
+    background-color: rgb(93, 219, 121);
+}
+.main img{
+    position: relative;
+    top: 40px;
+}
+.main h1{
+    position: relative;
+    top: -20px;
+    letter-spacing: -3px;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.main p{
+    position: relative;
+    top: -20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+.micro button{
+    font-size:35px ;
+    background-color: black;
+    color: white;
+    height: 110px;
+    width: 390px;
+    position: relative;
+    top: -20px;
+    left: 40px;
+    border-radius: 10px;
+    
+}
+.micro text{
+    position: relative;
+    left: -90px;
+}
+
+.micro img{
+    position: relative;
+    left: -21pc;
+    top: 27px;
+    /* top: -80px; */
+    height: 80px;
+}
+.micro button:hover{
+    border: 3px solid darkblue;
+    /* transform: scale(1.1); */
+
+}
+.game{
+    text-align: center;
+    background-color: rgba(34,35,38,255);
+    width: 87pc;
+    color: white;
+
+}
+.game img{
+    position: relative;
+    right: 10px;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:26px;
+}
+.icons{
+    position: relative;
+    /* right: -1155px; */
+    gap: 70px;
+    bottom: -150px;
+    
+  }
+  .icons img{
+    position: relative;
+    left: 62pc;
+    height: 40px;
+  
+  }
+  .icons a{
+    
+    text-decoration: none;
+  }
+  .foot{
+    display: flex;
+    text-align:left;
+    gap: 50px;
+    margin-top: 140px;
+  }
+  .footimg{
+    height: 40px;
+    position: relative;
+    right: -40px;
+    
+  }
+  .heading{
+    display: flex;
+    gap: 70px;  
+    /* justify-content:left; */
+    /* text-align:left;   */
+    position: relative;
+    left: 10pc;
+    
+}
+
+.heading p{
+    text-align:left;  
+    color: lightblue;
+    position: relative;
+    /* left: 10pc; */
+    /* right: -445px; */
+    top: -50px;
+
+  }
+  .linksup{
+    text-align: left;
+    position: relative;
+    right: 16pc;    
+    color: white;
+  }
+  .linksup2{
+    text-align: left;
+    position: relative;
+    right: 21pc;
+    color: white;
+  }
+  .linksup3{
+    text-align: left;
+    position: relative;
+    right: 25pc;
+    color: white;
+  }
+  .last{
+    margin-left:20px ;
+    font-size: 15px;
+    display: flex;
+    gap: 25px;
+    color: rgb(179, 152, 152);
+  }
+  .foot p:hover{
+    text-decoration:underline;
+    cursor: pointer;
+  }
+  .bottoms{
+    width: 87pc;
+    background-color: black;
+  }

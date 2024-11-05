@@ -1,0 +1,164 @@
+body {
+    background-image: linear-gradient(to top ,#111111 85%,#38700a);
+    background-repeat: no-repeat ;    
+    overflow-x:hidden;
+    font-family: sans-serif;
+}
+
+.uppernav{
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.uppernav a{
+    position: relative;
+
+    right: -430px;
+    top:-10px;
+    font-weight: 400;
+}
+.uppernav img{
+    position: relative;
+    right: -430px;
+    height: 40px;
+    bottom: -4px;
+}
+.uppernav p{
+    position: relative;
+    top:40px;
+    left:-180px;
+    color: white;
+}
+.slogo{
+    position: absolute;
+    left: -400px;
+
+}
+.uppernav h1{
+    position: relative;
+    top:40px;
+    font-size: 48px;
+    color: white;    
+    text-shadow: 1px 1px 1px black;
+}
+.centerpart{
+    text-align: center;
+    position: relative;
+    left:-150px;
+}
+.searchBox{
+    height: 40px;
+    width: 640px;
+    position: relative;
+    right: -180px;
+}
+
+.help{
+    position: relative;
+    right: -20px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.help img{
+    border-radius: 10px;
+    height: 100px;
+}
+.help img:hover{
+    cursor: pointer;
+}
+
+.quickhelp{
+    /* margin: 20px; */
+    color: white;
+    text-align:center;
+    font-family: sans-serif;
+    background-image:linear-gradient(to top, rgb(65, 60, 60),black);
+
+}
+.quickhelp h2{
+    font-size: 30px;
+}
+.quickhelp p{
+    font-size: 20px;
+}
+.quickhelp p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.bottom{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    /* background-color: #2b2929; */
+    
+}
+
+.bottom button:hover{
+    cursor: pointer;
+}
+
+
+
+.icons{
+    position: absolute;
+    right: 45px;
+    
+
+    
+}
+.icons a{
+    text-decoration: none;
+}
+.foot{
+    display: flex;
+    text-align: center;
+}
+.footimg{
+    height: 40px;
+    position: relative;
+    right: -40px;
+    
+}
+.heading{
+    display: flex;
+    gap: 70px;  
+    justify-content: center;
+    text-align: center;  
+}
+
+.heading p{
+    text-align: center;  
+    color: lightblue;
+    position: relative;
+    right: -445px;
+    top: -50px;
+}
+.linksup{
+    position: relative;
+    right: -60px;    
+    color: white;
+}
+.linksup2{
+    position: relative;
+    right: -90px;
+    color: white;
+}
+.linksup3{
+    position: relative;
+    right: -120px;
+    color: white;
+}
+.last{
+    margin-left:20px ;
+    font-size: 15px;
+    display: flex;
+    gap: 25px;
+    color: rgb(179, 152, 152);
+}
+.last p:hover{
+    color: green;
+    cursor: pointer;
+}
+

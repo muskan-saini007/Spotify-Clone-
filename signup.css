@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color:#fff;
+    padding-bottom: 90px;
+    background-color:#0f0e0e;
+}
+
+.form-wrapper{
+    width:30%;
+    margin: auto;
+    text-align: center;
+
+}
+.form-wrapper h1{
+    font-size: 40px;
+    font-weight:500px;
+    margin-left:15px;
+    text-align: left;
+
+}
+
+.form-wrapper button{
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom:4px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #0f0e0e;
+    border-color: rgba(255,255,255,0.5);
+    border-width: 0.5px;
+    letter-spacing: 0.5px;
+     color:#fff;
+
+  
+}
+.divider{
+    display: flex;
+      width: 100%;
+
+}
+.divider div{
+    background-color: rgb(200, 227, 218);
+    height: 1px;
+    width: 113%;
+    margin: 14px;
+    margin-top: 30px;
+}
+form{
+    padding: 20px;
+    text-align:left;
+
+}
+form label{
+    display: block;
+    font-size: 16px;
+    width: auto;
+    margin-bottom:10px;
+}
+form input{
+    width: 88%;
+    padding: 10px 20px;
+    background-color: #0c0c0c;
+    border-radius: 5px;;
+    font-size: 16px;
+    margin-bottom: 35px;
+    border-color: #a7a7a7;
+     
+}
+
+.sign-up-btn{
+    width:100% !important;
+    background-color: rgb(28, 146, 34) !important;
+
+}
+
+.sign-up-btn:hover{
+    background-color: rgb(107, 206, 100) !important;
+}
+.line{
+    margin-bottom:10px;
+    margin-right:2px;
+  
+
+
+}
+.line a{
+    color: #1ED760;
+}
+
+#sign-up-form img{
+    margin-left:10px;
+    height:50px;
+    margin-top:10px;
+}
+
+.already{
+    position: relative;
+    top: -50px;
+}
+.already p{
+    text-align: center;
+    color:#a7a7a7;
+
+}
+.already a{
+    color:white;
+}
+
+.footer{
+    position: relative;
+    top: -50px;
+}
+.footer p{
+    font-size: 0.75rem;
+    text-align: center;
+    color:#a7a7a7;
+   
+}
+.footer a{
+    color:#a7a7a7;
+}
+
+.facebook{
+    position: relative;
+    top: -30px;
+
+}
+
+.apple{
+    position: relative;
+    top: -60px;
+
+}
+
+.google button:hover{
+    border-top-color:white ;
+    border-bottom-color:white ;
+    border-left-color:white ;
+    border-right-color:white ;
+    color: #1ED760;
+    cursor: pointer;
+
+}
+
+.facebook button:hover{
+    color: #1ED760;
+    border-top-color:white ;
+    border-bottom-color:white ;
+    border-left-color:white ;
+    border-right-color:white ;
+    cursor: pointer;
+}
+
+.apple button:hover{
+    border-top-color:white ;
+    border-bottom-color:white ;
+    border-left-color:white ;
+    border-right-color:white ;
+    color: #1ED760;
+    cursor: pointer;
+
+}
